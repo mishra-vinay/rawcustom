@@ -1,0 +1,6 @@
+rawcustom_page:
+  path: '/rawcustom'
+  defaults:
+    _controller: 'Drupal\rawcustom\Controller\RawcustomController::rawcustomPage'
+  requirements:
+    _permission: 'view content'
